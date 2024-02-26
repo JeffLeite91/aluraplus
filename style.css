@@ -218,10 +218,6 @@ body{
         display: block;
     }
 
-}
-
-@media screen  and (max-width: 768px) {
-
     .container-caixa{
         margin: 20px 10px;
     }
@@ -238,5 +234,10 @@ body{
         margin: 10px 0px;
         
     }
-          
+
 }
+
+
+
+   
+          
