@@ -43,6 +43,7 @@ body{
     margin: 1em;
     padding: 1em;
     width: 100%;
+    text-align: center;
 
 
 }
@@ -183,8 +184,8 @@ body{
     color: var(--botao-azul);
 }
 
-@media screen and (max-widht:768px){
-    .comntainer{
+@media screen and (max-width:768px){
+    .container{
         display: block;
         background-image: none;
 
@@ -219,3 +220,23 @@ body{
 
 }
 
+@media screen  and (max-width: 768px) {
+
+    .container-caixa{
+        margin: 20px 10px;
+    }
+    
+    .container-botao{
+        max-width: 50vh;
+        padding: 10px 0px;
+        margin: 10px 0px;
+    }
+
+    .container-botao-secundario{
+        max-width: 50vh;
+        padding: 10px;
+        margin: 10px 0px;
+        
+    }
+          
+}
